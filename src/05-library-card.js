@@ -51,7 +51,6 @@ export function canBorrowBook(memberAge, hasValidCard, overdueBooks) {
       message: `Please return your ${overdueBooks} overdue book(s) first`
     };
   }
-
   return {
     allowed: true,
     message: "You may borrow up to 3 books"

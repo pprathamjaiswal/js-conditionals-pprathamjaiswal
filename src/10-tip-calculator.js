@@ -61,4 +61,3 @@ export function calculateTip(billAmount, serviceRating) {
     totalAmount
   };
 }
-

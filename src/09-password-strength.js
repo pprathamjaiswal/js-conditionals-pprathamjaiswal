@@ -55,4 +55,3 @@ export function checkPasswordStrength(password) {
     return 'very strong';
   }
 }
-
