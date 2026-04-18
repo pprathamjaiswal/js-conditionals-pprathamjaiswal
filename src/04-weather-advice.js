@@ -32,7 +32,6 @@ export function getWeatherAdvice(temperature, isRaining) {
       return "Great weather for hiking - don't forget sunscreen";
     }
   }
-
   if (temperature >= 15) {
     if (isRaining) {
       return "Cool and rainy - bring waterproof gear if hiking";

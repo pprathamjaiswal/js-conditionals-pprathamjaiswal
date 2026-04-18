@@ -50,4 +50,4 @@ export function getSeasonActivity(month, temperature) {
   }
 
   return { season, activity };
-}
+} 

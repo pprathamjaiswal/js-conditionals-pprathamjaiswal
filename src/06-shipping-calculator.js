@@ -35,7 +35,6 @@ export function calculateShipping(weight, country, orderTotal) {
   if (country === "US" && orderTotal > 50) {
     return 0;
   }
-
   if (country !== "US" && orderTotal > 100) {
     return 0;
   }

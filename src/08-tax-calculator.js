@@ -41,6 +41,5 @@ export function calculateTax(income) {
   if (income > 70000) {
     tax += (income - 70000) * 0.30;
   }
-
   return tax;
 }
